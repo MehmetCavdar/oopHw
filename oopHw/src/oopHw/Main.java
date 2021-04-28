@@ -8,9 +8,9 @@ public class Main {
 		
 		Lesson lesson1 = new Lesson(1,"c#", "Engin Demirog", 95 ); // örnek, referans, instance olusturma
 		
-		Lesson lesson2 = new Lesson(1,"Java", "Engin Demirog", 25 );
+		Lesson lesson2 = new Lesson(2,"Java", "Engin Demirog", 25 );
 		
-		Lesson lesson3 = new Lesson(1,"Programlamaya giris", "Engin Demirog", 0 );
+		Lesson lesson3 = new Lesson(3,"Programlamaya giris", "Engin Demirog", 0 );
 		
 		Lesson lesson4 = new Lesson();
 
