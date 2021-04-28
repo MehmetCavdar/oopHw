@@ -1,5 +1,6 @@
 package oopHw;
 
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -23,6 +24,11 @@ public class Main {
 		}
 		
 		System.out.println("ders sayisi " + lessons.length);
+		System.out.println("-------------------" );
+		
+		LessonManager lessonManager = new LessonManager() ;  // IS classini newledik
+		lessonManager.addToCart(lesson1);  //tanimlanan Class icinden istenen metodu cagirma
+		lessonManager.addToCart(lesson2);  
 		
 		
 
