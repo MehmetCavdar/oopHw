@@ -2,7 +2,7 @@ package oopHw;
 
 public class Lesson {
 	
-	
+	//overide
 	public Lesson() {
 		System.out.println("Constructor  bos yapisi calisti");
 	}

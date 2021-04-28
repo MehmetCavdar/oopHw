@@ -14,7 +14,7 @@ public class Main {
 		Lesson lesson4 = new Lesson();
 
 		
-		//Dizi tanimlama
+		//Dizi tanimlama ssss
 		Lesson[] lessons = {lesson1, lesson2, lesson3, lesson4};  //ürünleri diziye ekledik
 		
 		System.out.println("Dersler:");
