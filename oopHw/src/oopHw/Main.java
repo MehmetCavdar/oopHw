@@ -12,7 +12,7 @@ public class Main {
 		
 		Lesson lesson3 = new Lesson(3,"Programlamaya giris", "Engin Demirog", 0 );
 		
-		Lesson lesson4 = new Lesson();
+		Lesson lesson4 = new Lesson();  // burada deger atamadik
 
 		
 		//Dizi tanimlama ssss
@@ -29,9 +29,9 @@ public class Main {
 		LessonManager lessonManager = new LessonManager() ;  // IS classini newledik
 		lessonManager.addToCart(lesson1);  //tanimlanan Class icinden istenen metodu cagirma
 		lessonManager.addToCart(lesson2);  
-		
-		
-
+		lessonManager.deleteFromCart(lesson2);  
 	}
-
+	
 }
+
+
